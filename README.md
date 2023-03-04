@@ -57,16 +57,15 @@ All of this is then printed to the terminal, using a for loop to show each candi
 
 Finally, all of this is then written into a text file called "election_results_text_file.txt" found in the analysis folder, but those results can also be found below:
 
->Election Results 
->-------------------------
->Total Votes: 369711
->-------------------------
->Charles Casper Stockham: 23.049% (85213)
->Diana DeGette: 73.812% (272892)
->Raymon Anthony Doane: 3.139% (11606)
->-------------------------
->Winner: Diana DeGette
->-------------------------
+**Election Results** 
+ 
+- Total Votes: 369711
+  - Charles Casper Stockham: 23.049% (85213)
+  - Diana DeGette: 73.812% (272892)
+  - Raymon Anthony Doane: 3.139% (11606)
+
+- Winner: Diana DeGette
+
 
 ## Discussion of Results
 
