@@ -7,9 +7,9 @@ In both cases, both codes read the csv files from a "Resources" folder and retur
 
 Both codes are explained in more detail below:
 
-## PyBank
+# PyBank
 
-# Code Explanation
+## Code Explanation
 
 In the PyBank code, a series of lists are created in order to store key information like the monthly profit or loss and the change between subsequent months.
 The file is then read and a for loop counts the number of rows, and sums the information in the profit/loss column and stores it as a variable called "total". In the same for loop, each row's profit or loss is stored in the "monthlyprofitloss" list.
@@ -23,24 +23,22 @@ Calculations are then performed:
 Finally, all of this information is written to the terminal through a series of print statements, and then written to a text file called "budget_text_file.txt" found in the analysis folder. The results can also be seen here:
 
 **Financial Analysis 
-
-  -------------------------------
   Total Months: 86 
   Total: $22564198
   Average Change: $-8311.11
   Greatest Increase in Profits: Aug-16 ($1862002)
   Greatest Decrease in Profits: Feb-14 ($-1825558)**
 
-# Discussion of Results
+## Discussion of Results
 
 This shows us that the total amount of money gained by the company over the 86 months analyzed was about $22.5 million dollars. The average change from month-to-month is slightly negative (at roughly -$8000) but it is important to remember this is the _change between months_ and there are still more months where a profit is made than a loss is incurred.
 
 The month with the greatest increase in profits was August 2016 with a profit of $1.86 million.
 The month with the greatest loss was February 2014 with a loss of -$1.83 million.
 
-## PyPoll
+# PyPoll
 
-# Code Explanation
+## Code Explanation
 
 In the PyPoll code, similarly a number of lists are created to store the information from the csv file, which contains a column for ballotid, a column for county, and a column for the candidate voted for. All of these are created as lists.
 The file is read and each row is appended to each corresponding list. The number of total ballots cast is counted by the length of any of these lists and stored as a variable entitled "totalballots".
@@ -68,7 +66,7 @@ Finally, all of this is then written into a text file called "election_results_t
 >Winner: Diana DeGette
 >-------------------------
 
-# Discussion of Results
+## Discussion of Results
 
 The results here are fairly clear. The winner of the election was Diana DeGette with an overwhelming 74% of the vote, which was just over 270,000 votes from a total of roughly 370,000.
 The second place candidate was Charles Casper Stockham with roughly 23% of the vote, and the third place candidate was Raymon Anthony Doane with just over 3% of the vote.
