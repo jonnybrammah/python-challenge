@@ -22,9 +22,9 @@ Calculations are then performed:
 
 Finally, all of this information is written to the terminal through a series of print statements, and then written to a text file called "budget_text_file.txt" found in the analysis folder. The results can also be seen here:
 
->Financial Analysis 
+>Financial Analysis /n
 >-------------------------------
->Total Months: 86
+>Total Months: 86 /n
 >Total: $22564198
 >Average Change: $-8311.11
 >Greatest Increase in Profits: Aug-16 ($1862002)
